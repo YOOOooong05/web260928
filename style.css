@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Hi+Melody&display=swap');
+
+
+html {
+  font-family: "Hi Melody", sans-serif;
+  font-size: 20px
+}
+
+
+
+
+article {
+  display: block;
+  width: 300px;
+  text-align: center;
+  border: 3px solid yellow;
+  background-color: lightgray;
+}
+
+article:first-child{
+  
+}
+
+article div{
+  width: 250px;
+  border: 2px solid black; 
+}
+
+h3 {
+  color: hotpink;
+}
+
+h5{
+  backgrond-color: lightgray;
+}
+
+a {
+  text-decoration: none;
+}
+
+a:hover {
+  /*text-decoration: underline;*/
+  background-color: blue;
+  color: white;
+}
+
+a:active {
+  background-color: hotpink ;
+  color: white;
+}
+
+
+#m1 {
+  background-color: #000088;
+  color: rgba(255, 255, 0, 0.4);
+}
+
+
+div::before {
+  content: '[영화소개] ';
+  font-weight: bold;
+  color: darkgreen;
+}
+
+div::after{
+  content: ' (생략)';
+  font-style: ltalic;
+  color: lightgreen;
+}
+
+div #header_title {
+  display: block;
+  width: 1vw;
+  text-align: center;
+  background-color: black;
+  color: white;
+  font-weight: bold;
+  font-size: 3rem;
+}
+
+article:last-child{
+  background-color: lightyellow;
+}
+
+article div {
+  width: 250px;
+  border: 2px solid black;
+  padding: 20px;
+}
